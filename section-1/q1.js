@@ -1,4 +1,5 @@
 // 세 자리 수 중 최소값
+// 반복문 사용금지
 
 function solution(a, b, c) {
     let answer;
