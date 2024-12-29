@@ -23,7 +23,7 @@ function solution (arr) {
     min = Math.min(...odd);
 
     console.log("홀수 : " + odd);
-    console.log("홀수의 합 :" + sum);
+    console.log("홀수의 합 : " + sum);
     console.log("홀수의 최소값 : " + min);
 }
 
