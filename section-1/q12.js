@@ -1,9 +1,17 @@
-// 문자열의 대소문자 갯수 확인
+// 문자열을 대문자로 통일
 
 function solution(str) {
-    const arr = ['a', 'b', 'c']
+    let result = ''
+    for (const strElement of str) {
+        let num = strElement.charCodeAt()
 
-    arr.forEach((item, index, array) => (array[index] = item + item))
+        if (!(num >= 65 && num <= 90)) {
+            result += strElement.toUpperCase()
+        } else {
+            result += strElement
+        }
+    }
+    console.log(result)
 }
 
 solution('KoreaTimeGood')

@@ -12,6 +12,17 @@ function solution(str, word) {
         }
     }
 
+    //스플릿사용
+    const text = str.split(word).length - 1
+    console.log(text)
+
+    // for of 사용
+    // for (const strElement of str) {
+    //     if (strElement === word) {
+    //         result++
+    //     }
+    // }
+
     console.log(result)
 }
 
